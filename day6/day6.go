@@ -1,14 +1,3 @@
-/*
-How many characters need to be processed before the first start-of-packet marker is detected?
-
-bvwbjplbgvbhsrlpgdmjqwftvncz
-
-Så jag behöver loopa från 0, 1, 2, 3
-Om len()=4 då jämför jag och kollar om ngn är unik, sedan tar bort första värdet i listan
-Och läser nästa
-- Måste hålla koll på i dvs vart jag är :)
--
-*/
 package main
 
 import (
